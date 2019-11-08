@@ -47,7 +47,7 @@ class sndiod (
 ) {
 
   service { 'sndiod':
-    service_flags = $service_flags,
+    flags => $service_flags,
   }
 
 }
